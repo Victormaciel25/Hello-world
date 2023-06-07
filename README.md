@@ -4,6 +4,6 @@
 - 👀 I’m interested in new technologies, big projects and travel.
 - 🌱 I’m currently learning javascript, SQL, HTML, CSS
 - 📫 How to reach me: 
-    linkedin: linkedin.com/in/victor-maciel-26451327a/
+     linkedin.com/in/victor-maciel-26451327a/
     
  
