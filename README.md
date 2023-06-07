@@ -1,6 +1,9 @@
 # Hello, world!
 
-This is my first repository.
-
-This line i changed directly on the site.
+- 👋 Hi, I’m Victor Maciel
+- 👀 I’m interested in new technologies, big projects and travel.
+- 🌱 I’m currently learning javascript, SQL, HTML, CSS
+- 📫 How to reach me: 
+    linkedin: linkedin.com/in/victor-maciel-26451327a/
+    
  
