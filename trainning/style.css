@@ -1,5 +1,8 @@
 :root{
-    --cor0: rgba(0, 128, 38, 0.856);
+    --cor0: rgb(9, 105, 38);
+    --cor1: rgba(236, 232, 0, 0.938);
+    
+    --fonte-padrao:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 * {
@@ -7,6 +10,7 @@
 }
 
 header{
+    font-family: --fonte-padrao;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -18,6 +22,7 @@ header h1 {
     color: white;
     text-align: center;
     padding: 20px;
+    text-decoration: underline rgba(236, 232, 0, 0.938);
 }
 
 .nav-esquerda{
@@ -32,4 +37,44 @@ header h1 {
     padding: 30px;
     color: white;
     text-decoration: none;
+}
+
+.super-vantagens-container{
+    color: rgba(83, 71, 71, 0.938);
+    font-size: x-large;
+    font-family: --fonte-padrao;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.super{
+    padding-bottom: 50px;
+}
+
+.underline{
+    font-size: 70px;
+    color: var(--cor1);
+}
+
+.container-1{
+    display: flex;
+}
+
+.container-2{
+    font-size: 18px;
+    background-color: rgb(230, 230, 230);
+    padding: 15px;
+    margin: 20px rgb(243, 212, 212);
+    text-align: left;
+    z-index: 1;
+}
+
+.container-2 h3 {
+    text-align: justify;
+    padding: 10px;
+}
+
+.container-2::after{
+   
 }
