@@ -1,5 +1,35 @@
+:root{
+    --cor0: rgba(0, 128, 38, 0.856);
+}
+
 * {
     margin: 0;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background-color: var(--cor0);
+}
 
+header h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-esquerda{
+    text-align: left;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-direita{
+    justify-content: right;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
