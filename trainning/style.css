@@ -1,6 +1,6 @@
 :root{
     --cor0: rgb(9, 105, 38);
-    --cor1: rgba(236, 232, 0, 0.938);
+    --cor1: rgba(236, 200, 0, 0.938);
     
     --fonte-padrao:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -22,7 +22,7 @@ header h1 {
     color: white;
     text-align: center;
     padding: 20px;
-    text-decoration: underline rgba(236, 232, 0, 0.938);
+    text-decoration: underline var(--cor1);
 }
 
 header a:hover{
@@ -37,8 +37,6 @@ picture img{
 }
 
 main{
-    min-width: 300px;
-    max-width: 1000px;
     margin: auto; 
 }
 
@@ -98,4 +96,39 @@ main{
 
 .favicon{
     margin-left: 5%;
+}
+
+.consorcio{
+    display: flex;
+    background-color: var(--cor1);
+    margin: 120px 200px 120px 200px;
+    border-radius: 20px 20px 20px 20px;
+    width: 80%;
+    overflow: hidden;
+    height: 440px;
+}
+
+.consorcio1{
+    position: relative;
+}
+
+.avengers, .guy{
+    position: absolute;
+}
+
+.guy{
+    z-index: 1;
+    margin-left: 100px;
+    overflow: clip;
+}
+
+.consorcio2 {
+    margin-left: auto;
+    padding-right: 200px;
+    width: 200px; /* Ajuste conforme necessário */
+    height: 80%; /* Ajuste conforme necessário para cobrir toda a altura da tela */
+    background-color: var(--cor1); /* Cor de fundo desejada */
+    text-align: left;
+    border-radius: 20px 20px 20px 20px;
+    
 }
