@@ -62,7 +62,7 @@ main{
     font-family: --fonte-padrao;
     min-width: 300px;
     max-width: 1000px;
-    margin: auto;
+    margin: 80px 338px 200px 338px;
 }
 
 .super{
@@ -98,28 +98,39 @@ main{
     margin-left: 5%;
 }
 
+section{
+    position: relative;
+}
+
 .consorcio{
     display: flex;
     background-color: var(--cor1);
     margin: 120px 200px 120px 200px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 40px 40px 40px 40px;
     width: 80%;
     overflow: hidden;
-    height: 440px;
-}
-
-.consorcio1{
     position: relative;
+    height: 440px;
+    
 }
 
-.avengers, .guy{
+.consorcio1 {
+    flex: 1; /* Ajustado para ocupar o restante do espaço*/
+    position: relative; /* Adicionado para posicionar corretamente*/
+}
+
+.avengers{
+    width: 70%;
+}
+
+.guy {
+    width: 350px;
     position: absolute;
-}
-
-.guy{
+    left: 290px;
     z-index: 1;
-    margin-left: 100px;
-    overflow: clip;
+    margin-left: 80px;
+    top: 50%; /* Ajustado para centralizar verticalmente*/
+    transform: translateY(-50%); /* Ajustado para centralizar verticalmente*/
 }
 
 .consorcio2 {
@@ -130,5 +141,5 @@ main{
     background-color: var(--cor1); /* Cor de fundo desejada */
     text-align: left;
     border-radius: 20px 20px 20px 20px;
-    
+    position: relative;
 }
