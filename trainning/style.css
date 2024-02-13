@@ -142,7 +142,6 @@ section{
     padding-top: 65px;
     width: 450px; /* Ajuste conforme necessário */
     height: 80%; /* Ajuste conforme necessário para cobrir toda a altura da tela */
-    background-color: var(--cor1); /* Cor de fundo desejada */
     text-align: left;
     border-radius: 20px 20px 20px 20px;
     position: relative;
@@ -196,4 +195,42 @@ section{
 main .underline{
     font-size: 70px;
     color: var(--cor1);
+}
+
+.div-button{
+    display: flex;
+    justify-content: center;
+}
+
+.div-button button{
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    border: 2px solid var(--cor1); /* Remover a borda padrão */
+    border-radius: 20px; /* Cantos arredondados */
+    cursor: pointer; /* Alterar o cursor ao passar sobre o botão */
+    font-family: var(--fonte-padrao);
+    padding: 11px 80px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: rgba(240, 248, 255, 0);
+    color: var(--cor1);
+    display: flex
+}
+
+.div-button button:hover{
+    background-color: var(--cor1);
+    color: white;
+    transform: scale(1);
+    transition: all .2s ease;
+}
+
+.depoimentos1{
+    font-family: var(--fonte-padrao);
+    font-size: 22px;
+    color: rgba(2, 2, 2, 0.651);
+    text-align: center;
+}
+
+.depoimentos1 p{
+    font-size: 17px;
 }
