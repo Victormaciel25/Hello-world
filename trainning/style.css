@@ -331,5 +331,7 @@ main .underline{
 .Fale-agora2 button:hover{
     transform: scale(1);
     transition: all .2s ease;
-    box-shadow:  black;
+    box-shadow: 
+    0px 4px 30px rgba(236, 200, 0, 0.521);
+;
 }
