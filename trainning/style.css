@@ -114,7 +114,6 @@ section{
     overflow: hidden;
     position: relative;
     height: 440px;
-    
 }
 
 .consorcio1 {
@@ -245,14 +244,15 @@ main .underline{
     font-size: 14px;
     font-family: var(--fonte-padrao);
     background-color: rgba(191, 191, 191, 0.185);
-    padding: 20px;
+    padding: 40px;
     text-align: justify;
     border-radius: 20px;
     margin-top: 80px;
     margin-right: 50px;
-    border: 0.5px solid rgba(0, 0, 0, 0.075);
+    border: none;
     display: block;
     min-height:185px;
+    overflow: hidden;
 }
 
 .depoimentos2:last-child{
@@ -280,4 +280,56 @@ main .underline{
     display: flex;
     margin-top: 30px;
     color: rgba(0, 0, 0, 0.658);
+}
+
+.Fale-agora{
+   display: flex;
+}
+
+.Fale-agora1{
+    display: flex;
+    background-color: var(--cor0);
+    margin: 120px 200px 120px 200px;
+    border-radius: 40px 40px 40px 40px;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    height: 440px;
+    color: white;
+    font-size: 18px;
+}
+
+.Fale-agora2 h1{
+    font-family: var(--fonte-padrao);
+    padding-bottom: 20px; 
+}
+
+.Fale-agora2{
+    margin-left: 300px;
+    padding-top: 80px;
+    width: 450px; /* Ajuste conforme necessário */
+    height: 80%; /* Ajuste conforme necessário para cobrir toda a altura da tela */
+    text-align: left;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    right: 15%;
+}   
+
+.Fale-agora2 button{
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remover a borda padrão */
+    border-radius: 20px; /* Cantos arredondados */
+    cursor: pointer; /* Alterar o cursor ao passar sobre o botão */
+    font-family: var(--fonte-padrao);
+    padding: 11px 30px;
+    margin-right: 60px;
+    margin-top: 40px;
+    background-color: var(--cor1);
+}
+
+.Fale-agora2 button:hover{
+    transform: scale(1);
+    transition: all .2s ease;
+    box-shadow:  black;
 }
