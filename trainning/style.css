@@ -284,7 +284,7 @@ main .underline{
 
 .Fale-agora{
    display: flex;
-}
+   border: none;
 
 .Fale-agora1{
     display: flex;
@@ -307,7 +307,7 @@ main .underline{
 .Fale-agora2{
     margin-left: 300px;
     padding-top: 80px;
-    width: 450px; /* Ajuste conforme necessário */
+    width: 500px; /* Ajuste conforme necessário */
     height: 80%; /* Ajuste conforme necessário para cobrir toda a altura da tela */
     text-align: left;
     border-radius: 20px 20px 20px 20px;
@@ -331,7 +331,17 @@ main .underline{
 .Fale-agora2 button:hover{
     transform: scale(1);
     transition: all .2s ease;
-    box-shadow: 
-    0px 4px 30px rgba(236, 200, 0, 0.521);
-;
+    box-shadow: 0px 4px 30px rgba(236, 200, 0, 0.521);
+}
+
+.Fale-agora3{
+    overflow: hidden;
+    width: 70%;
+    height: 100%;
+}
+
+.Fale-agora3 img{
+    transform: scaleX(-1);
+    width: 100%;
+    height: 100%;
 }
