@@ -242,9 +242,9 @@ main .underline{
 
 .depoimentos2{
     width: 20%;
-    font-size: 17px;
+    font-size: 14px;
     font-family: var(--fonte-padrao);
-    background-color: rgba(191, 191, 191, 0.478);
+    background-color: rgba(191, 191, 191, 0.185);
     padding: 20px;
     text-align: justify;
     border-radius: 20px;
@@ -266,6 +266,18 @@ main .underline{
 .depoimentos2 h3{
     vertical-align: top;
     margin-left: 5px;
-    
 }
 
+.estrela{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    margin-left: -110px;
+    margin-bottom: 20px;
+}
+
+.nome-pessoa{
+    display: flex;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.658);
+}
