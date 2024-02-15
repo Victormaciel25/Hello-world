@@ -93,8 +93,9 @@ main{
 }
 
 .container-2 h3 {
-    text-align: left;
+    text-align: left;   
     padding: 10px 0px 10px 0px;
+    display: inline-block;
 }
 
 .favicon{
