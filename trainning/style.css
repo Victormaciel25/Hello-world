@@ -285,6 +285,15 @@ main .underline{
 .Fale-agora{
    display: flex;
    border: none;
+   z-index: -1;
+}
+
+.brasil{
+    position:absolute;
+    z-index: 1;
+    padding-top: 450px;
+    padding-left: 200px;
+    opacity: 0.5;
 }
 
 .Fale-agora1{
@@ -336,13 +345,28 @@ main .underline{
 }
 
 .Fale-agora3{
-    overflow: hidden;
-    width: 70%;
+    width: 80%;
     height: 100%;
 }
 
 .Fale-agora3 img{
     transform: scaleX(-1);
-    width: 100%;
+    width: 60%;
     height: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+.memoji{
+    position: absolute;
+    z-index: 3;
+    transform: scaleX(-1);
+    width: 400px;
+    height: 300px;
+    bottom: 100px;
+    right: 150px;
+}
+
+.container-infos{
+    
 }
