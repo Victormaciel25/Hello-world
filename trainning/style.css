@@ -390,10 +390,20 @@ main .underline{
     font-family: var(--fonte-padrao);
 }
 
+.container-infos p, a{
+    font-size: 14px;
+}
+
 .info-logo{
     position: relative;
     top: 50px;
     right: 120px;
+}
+
+.info-nav{
+    position: relative;
+    left: 70px;
+    justify-content: space-around;
 }
 
 .sem-bolinha{
@@ -403,7 +413,20 @@ main .underline{
 }
 
 .titulo{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
+.titulo2{
+    padding: none;
+}
+
+.sem-sublinhado{
+    text-decoration: none;
+    color: white;
+}
+
+.sem-sublinhado:hover{
+    transform: scale(1);
+    text-decoration: underline;
+}
