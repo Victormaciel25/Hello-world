@@ -412,6 +412,11 @@ main .underline{
     top: 50px;
 }
 
+.info-central2{
+    display: flex;
+    flex-direction: column;
+}
+
 .titulo{
     padding-top: 20px;
     padding-bottom: 20px;
