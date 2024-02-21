@@ -338,7 +338,6 @@ main .underline{
     margin-right: 60px;
     margin-top: 40px;
     background-color: var(--cor1);
-    position: absolute;
     z-index: 7;
 }
 
@@ -404,6 +403,7 @@ main .underline{
     position: relative;
     left: 70px;
     justify-content: space-around;
+    margin-top: 20px;
 }
 
 .sem-bolinha{
@@ -412,9 +412,8 @@ main .underline{
     top: 50px;
 }
 
-.info-central2{
-    display: flex;
-    flex-direction: column;
+.info-central2 img, p{
+    display: inline-block
 }
 
 .titulo{
