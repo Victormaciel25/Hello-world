@@ -192,7 +192,7 @@ section{
     text-align: center;
 }
 
-main .underline{
+body .underline{
     font-size: 70px;
     color: var(--cor1);
 }
@@ -287,6 +287,7 @@ main .underline{
    display: flex;
    border: none;
    z-index: -1;
+   position: relative;
 }
 
 .brasil{
@@ -328,17 +329,17 @@ main .underline{
 }   
 
 .Fale-agora2 button{
+    position: absolute;
     padding: 10px 20px; /* Espaçamento interno do botão */
     font-size: 16px; /* Tamanho da fonte */
     border: none; /* Remover a borda padrão */
     border-radius: 20px; /* Cantos arredondados */
     cursor: pointer; /* Alterar o cursor ao passar sobre o botão */
     font-family: var(--fonte-padrao);
+    margin-top: 30px;
     padding: 11px 30px;
-    margin-right: 60px;
-    margin-top: 40px;
     background-color: var(--cor1);
-    z-index: 7;
+    z-index: 10;
 }
 
 .Fale-agora2 button:hover{
@@ -412,8 +413,8 @@ main .underline{
     top: 50px;
 }
 
-.info-central2 img, p{
-    display: inline-block
+.alinhar {
+    display: inline-block;
 }
 
 .titulo{
