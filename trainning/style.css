@@ -286,16 +286,7 @@ body .underline{
 .Fale-agora{
    display: flex;
    border: none;
-   z-index: -1;
    position: relative;
-}
-
-.brasil{
-    position:absolute;
-    z-index: 1;
-    padding-top: 450px;
-    padding-left: 200px;
-    opacity: 0.5;
 }
 
 .Fale-agora1{
@@ -336,7 +327,7 @@ body .underline{
     border-radius: 20px; /* Cantos arredondados */
     cursor: pointer; /* Alterar o cursor ao passar sobre o botão */
     font-family: var(--fonte-padrao);
-    margin-top: 30px;
+    margin-top: 10px;
     padding: 11px 30px;
     background-color: var(--cor1);
     z-index: 10;
@@ -346,7 +337,14 @@ body .underline{
     transform: scale(1);
     transition: all .2s ease;
     box-shadow: 0px 4px 30px rgba(236, 200, 0, 0.589);
+}
 
+.brasil{
+    position:absolute;
+    z-index:1;
+    top: 450px;
+    left: 200px;
+    opacity: 0.5;
 }
 
 .Fale-agora3{
